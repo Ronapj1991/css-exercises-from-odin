@@ -23,3 +23,25 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.left-links ul {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  padding: 0;
+  padding-top: 5px;
+}
+
+.right-links ul {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  padding-top: 5px;
+  padding-right: 10px;
+}
